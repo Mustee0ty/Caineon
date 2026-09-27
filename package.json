@@ -1,0 +1,42 @@
+{
+  "name": "caineonjs",
+  "version": "1.0.0",
+  "description": "M1/M2 Authorization Testing Engine for Caido - Two-account comparison testing inspired by Autorize",
+  "type": "module",
+  "main": "src/core/executor.js",
+  "scripts": {
+    "test": "echo \"CaineonJS uses Caido workflows for testing\" && exit 0"
+  },
+  "keywords": [
+    "caido",
+    "authorization",
+    "security",
+    "testing",
+    "idor",
+    "m1",
+    "m2",
+    "workflow",
+    "authorization-bypass",
+    "autorize"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/caineonjs"
+  },
+  "exports": {
+    "./m1": "./src/core/m1.js",
+    "./m2": "./src/core/m2.js",
+    "./executor": "./src/core/executor.js",
+    "./credentials": "./src/config/credentials.js",
+    "./comparator": "./src/utils/comparator.js",
+    "./history-handler": "./src/utils/history-handler.js"
+  },
+  "files": [
+    "src/",
+    "workflows/",
+    "examples/",
+    "README.md"
+  ]
+}
